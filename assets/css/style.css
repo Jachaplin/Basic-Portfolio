@@ -2,6 +2,12 @@ body {
 	margin: 0;
 	padding: 0;
 
+}
+
+.container-body {
+	padding: 20px;
+	overflow: auto;
+	background-image: url("/Users/JakeChaplin1/Desktop/UC_Berkeley_Bootcamp/Bootcamp_HW/Assignment_1/Basic-Portfolio/assets/images/concrete-texture.png");
 	
 }
 
@@ -42,23 +48,21 @@ header {
 	
 }
 
-
-.container-body {
-	padding: 20px;
-	overflow: auto;
-	background-image: url("/Users/JakeChaplin1/Desktop/UC_Berkeley_Bootcamp/Bootcamp_HW/Assignment_1/Basic-Portfolio/assets/images/concrete-texture.png");
+section {
+	background-color: white;
+	width: 960px;
+	padding: 40px;
+	margin-top: 20px;
 	
 }
 
-.container-aboutme {
-	background-color: white;
-	width: 960px;
-	padding: 20px;
+#content {
+	
+	width: 650px;
 	overflow: auto;
-	margin-left: 160px;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin: 2%;
 	float: left;
+
 }
 
 #content-pad {
@@ -67,6 +71,24 @@ header {
 	margin-right: 10px;
 	padding: 1.5px;
 	
+}
+
+p {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	font-size: 22px;
+	color: #777777;
+
+}
+
+#connect {
+	
+	width: 270px;
+	padding: 20px;
+	margin: 2%;
+	float: left;
+	overflow: auto;
 	
 }
 
@@ -76,7 +98,6 @@ header {
 	margin-right: 10px;
 	padding: 1.5px;
 	margin-bottom: 20px;
-	
 	
 }
 
@@ -93,46 +114,29 @@ header {
 #connect-img {
 	width: 80px;
 	height: 80px;
+
 }
 
 #connect-img-2 {
 	width: 85px;
 	height: 85px;
 
-
-}
-
-p {
-	float: left;
-	width: 50%;
-	padding: 10px;
-	font-size: 22px;
-	overflow: auto;
-	color: #777777;
-}
-
-.container-connect {
-	background-color: white;
-	width: 270px;
-	padding: 20px;
-	float: left;
-	overflow: auto;
-	margin-left: 40px;
-	margin-top: 20px;
-	
 }
 
 .container-footer-pad {
 	background-color: #4aaaa5;
 	clear: all;
 	padding: 4px;
+
 }
 
-
 footer {
-	clear: all;
+	clear: both;
 	background-color: #666666;
 	text-align: center;
 	padding: 20px;
 	color: #bbbbbb;
+	width: 100%;
+	position: absolute;
+
 }
