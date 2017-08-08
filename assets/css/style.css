@@ -1,0 +1,138 @@
+body {
+	margin: 0;
+	padding: 0;
+
+	
+}
+
+header {
+
+	background-color: white;
+	padding: 10px;
+	font-family: Georgia, Times, Times New Roman, serif;
+
+}
+
+#header-color {
+	color: #4aaaa5;
+	position: relative;
+	left: 10px;
+	font-family: Georgia, Times, Times New Roman, serif;
+	z-index: 1;
+
+}
+
+#header-title {
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 300px;
+	overflow: auto;
+	margin-bottom: -10px;
+	margin-left: 170px;
+	color: white;
+}
+
+#header-pad {
+	background-color: #cccccc;
+	padding: 1px;
+	position: relative;
+	top: 10px;
+	z-index: 0;
+	
+}
+
+
+.container-body {
+	padding: 20px;
+	overflow: auto;
+	background-image: url("/Users/JakeChaplin1/Desktop/UC_Berkeley_Bootcamp/Bootcamp_HW/Assignment_1/Basic-Portfolio/assets/images/concrete-texture.png");
+	
+}
+
+.container-aboutme {
+	background-color: white;
+	width: 960px;
+	padding: 20px;
+	overflow: auto;
+	margin-left: 160px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+}
+
+#content-pad {
+	background-color: #dddddd;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 1.5px;
+	
+	
+}
+
+#connect-pad {
+	background-color: #eeeeee;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 1.5px;
+	margin-bottom: 20px;
+	
+	
+}
+
+.container-img {
+	width: 25%;
+	height: auto;
+	float: left;
+	padding: 10px;
+	position: relative;
+	top: 25px;
+
+}
+
+#connect-img {
+	width: 80px;
+	height: 80px;
+}
+
+#connect-img-2 {
+	width: 85px;
+	height: 85px;
+
+
+}
+
+p {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	font-size: 22px;
+	overflow: auto;
+	color: #777777;
+}
+
+.container-connect {
+	background-color: white;
+	width: 270px;
+	padding: 20px;
+	float: left;
+	overflow: auto;
+	margin-left: 40px;
+	margin-top: 20px;
+	
+}
+
+.container-footer-pad {
+	background-color: #4aaaa5;
+	clear: all;
+	padding: 4px;
+}
+
+
+footer {
+	clear: all;
+	background-color: #666666;
+	text-align: center;
+	padding: 20px;
+	color: #bbbbbb;
+}
