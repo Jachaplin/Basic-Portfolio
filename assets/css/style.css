@@ -1,14 +1,18 @@
 body {
 	margin: 0;
 	padding: 0;
+	width: 100%;
 
 }
 
+
 .container-body {
-	padding: 20px;
+	
+	width: 100%;
 	overflow: auto;
 	background-image: url("/Users/JakeChaplin1/Desktop/UC_Berkeley_Bootcamp/Bootcamp_HW/Assignment_1/Basic-Portfolio/assets/images/concrete-texture.png");
-	
+	position: relative;
+	top: -67px;
 }
 
 header {
@@ -16,28 +20,76 @@ header {
 	background-color: white;
 	padding: 10px;
 	font-family: Georgia, Times, Times New Roman, serif;
+	font-size: 36px;
+
+}
+ul {
+	width: 40%;
+	list-style-type: none;
+    margin: 0;
+    padding: 20px;
+    overflow: none;
+    background-color: none;
+    float: right;
+    position: relative;
+    bottom: 60px;
+    font-size: 18px;
+    color: #999999;
+
 
 }
 
-#header-color {
+li {
+    float: left;
+    padding: 10px;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#list-break-color {
+	color: #eeeeee;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+h1 {
+	font-size: 30px;
+	padding: 10px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+#name-tab {
+	text-align: center;
+	background-color: #4aaaa5;
+	padding: 20px;
+	width: 200px;
+	overflow: auto;
+	margin-bottom: -10px;
+	margin-left: 5%;
+	color: white;
+}
+
+#title-color {
 	color: #4aaaa5;
-	position: relative;
-	left: 10px;
+	margin-bottom: 20px;
 	font-family: Georgia, Times, Times New Roman, serif;
 	z-index: 1;
 
 }
 
-#header-title {
-	text-align: center;
-	background-color: #4aaaa5;
-	padding: 20px;
-	width: 300px;
-	overflow: auto;
-	margin-bottom: -10px;
-	margin-left: 170px;
-	color: white;
-}
 
 #header-pad {
 	background-color: #cccccc;
@@ -51,8 +103,9 @@ header {
 section {
 	background-color: white;
 	width: 960px;
-	padding: 40px;
+	padding: 20px;
 	margin-top: 20px;
+
 	
 }
 
@@ -60,8 +113,11 @@ section {
 	
 	width: 650px;
 	overflow: auto;
-	margin: 2%;
+	margin-left: 5%;
+	margin-bottom: 2%;
+	margin-top: 2%;
 	float: left;
+
 
 }
 
@@ -74,18 +130,20 @@ section {
 }
 
 p {
-	float: left;
-	width: 50%;
-	padding: 10px;
-	font-size: 22px;
+	float: auto;
+	width: 90%;
+	padding: 20px;
+	font-size: 20px;
 	color: #777777;
+	margin-top: 10px;
+	line-height: 30px;
 
 }
 
 #connect {
 	
 	width: 270px;
-	padding: 20px;
+	text-align: center;
 	margin: 2%;
 	float: left;
 	overflow: auto;
@@ -102,18 +160,19 @@ p {
 }
 
 .container-img {
-	width: 25%;
+	width: 35%;
 	height: auto;
 	float: left;
-	padding: 10px;
+	padding: 20px;
 	position: relative;
-	top: 25px;
+	top: 18px;
 
 }
 
 #connect-img {
-	width: 80px;
-	height: 80px;
+	
+	max-width: 30%;
+	height: auto;
 
 }
 
@@ -127,6 +186,8 @@ p {
 	background-color: #4aaaa5;
 	clear: all;
 	padding: 4px;
+		position: relative;
+	top: -67px;
 
 }
 
@@ -134,9 +195,13 @@ footer {
 	clear: both;
 	background-color: #666666;
 	text-align: center;
-	padding: 20px;
+	padding: 30px;
 	color: #bbbbbb;
-	width: 100%;
-	position: absolute;
+	width: 95%;
+		position: relative;
+	top: -67px;
+}
 
+h6 {
+	font-size: 12px;
 }
