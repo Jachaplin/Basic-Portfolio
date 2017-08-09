@@ -1,14 +1,17 @@
 body {
 	margin: 0;
 	padding: 0;
-	width: 100%;
+	
+
 
 }
 
 
 .container-body {
-	
+	clear:both;
 	width: 100%;
+	min-width: 1273px;
+	height: auto;
 	overflow: auto;
 	background-image: url("/Users/JakeChaplin1/Desktop/UC_Berkeley_Bootcamp/Bootcamp_HW/Assignment_1/Basic-Portfolio/assets/images/concrete-texture.png");
 	position: relative;
@@ -21,6 +24,7 @@ header {
 	padding: 10px;
 	font-family: Georgia, Times, Times New Roman, serif;
 	font-size: 36px;
+	width: 100%;
 
 }
 ul {
@@ -46,8 +50,8 @@ li {
 }
 
 li a {
-    display: block;
-    color: white;
+    
+    color: #999999;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -59,7 +63,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    color: #111;
 }
 
 h1 {
@@ -117,6 +121,8 @@ section {
 	margin-bottom: 2%;
 	margin-top: 2%;
 	float: left;
+	background-color: #ffffff
+
 
 
 }
@@ -171,8 +177,9 @@ p {
 
 #connect-img {
 	
-	max-width: 30%;
+	max-width: 27%;
 	height: auto;
+	padding: 5px;
 
 }
 
@@ -184,10 +191,11 @@ p {
 
 .container-footer-pad {
 	background-color: #4aaaa5;
-	clear: all;
+	clear: both;
 	padding: 4px;
-		position: relative;
+	position: relative;
 	top: -67px;
+	width: 100%
 
 }
 
@@ -197,8 +205,9 @@ footer {
 	text-align: center;
 	padding: 30px;
 	color: #bbbbbb;
-	width: 95%;
-		position: relative;
+	width: 100%;
+	min-width: 1210px;
+	position: relative;
 	top: -67px;
 }
 
