@@ -13,7 +13,7 @@ body {
 	min-width: 1273px;
 	height: auto;
 	overflow: auto;
-	background-image: url("/Users/JakeChaplin1/Desktop/UC_Berkeley_Bootcamp/Bootcamp_HW/Assignment_1/Basic-Portfolio/assets/images/concrete-texture.png");
+	background-image: url("../images/concrete-texture.png");
 	position: relative;
 	top: -67px;
 }
